@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('HelloWorld') {
+        stage('Generic Webhook Trigger Plugin Test') {
             steps {
-                echo "Hello World"
+                echo "Generic Webhook Trigger Plugin Test"
             }
         }
     }
